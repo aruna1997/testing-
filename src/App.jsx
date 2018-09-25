@@ -7,7 +7,10 @@ export const dodecrement=(prevState)=>({
     counter:prevState.counter-1
 })
 
-
+export const ok=()=>{
+    console.log('check');
+    
+}
 
 class App extends Component
 {
